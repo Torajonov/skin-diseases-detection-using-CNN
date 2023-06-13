@@ -19,7 +19,7 @@ class Detection():
         img = img.astype('float32')
         img = img/255.0
         return img
-    
+ d   
     # Model Prediction
     def predict(self, img, model):
         result = model.predict(img)
