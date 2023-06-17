@@ -50,7 +50,7 @@ def upload_file():
             return redirect(url_for('predict', filename = filename))
     return render_template('index.html') 
 
-d
+
 @app.route('/predict/<filename>')
 def predict(filename):
     detection = Detection()
